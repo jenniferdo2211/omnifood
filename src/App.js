@@ -1,7 +1,7 @@
 import React from "react";
-import "./App.css";
 import AppHeader from "./components/AppHeader";
 import Hero from "./components/Hero";
+import HowItWorks from "./components/HowItWorks";
 
 const App = () => {
   return (
@@ -9,6 +9,7 @@ const App = () => {
       <AppHeader />
       <main>
         <Hero />
+        <HowItWorks />
       </main>
     </React.Fragment>
   );

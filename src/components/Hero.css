@@ -10,7 +10,8 @@
   align-items: center;
   gap: var(--min-padding);
 
-  padding: 4.8rem var(--min-padding) var(--min-padding) var(--min-padding);
+  padding: var(--top-padding) var(--min-padding) var(--bottom-padding)
+    var(--min-padding);
 }
 
 .hero-img {

@@ -14,7 +14,7 @@
 
 --- COLORS
 PRIMARY: #e67e22
-TINTS: #fdf2e9
+TINTS: #fdf2e9, #fae5d3
 SHADES: #cf711f
 ACCENTS:
 GREYS: #555, #333
@@ -36,6 +36,9 @@ GREYS: #555, #333
   --shade-color: #cf711f;
   --grey-color: #555;
   --min-padding: 6.4rem;
+  --top-padding: 8rem;
+  --bottom-padding: 9.6rem;
+  --between-padding: 6.4rem;
   --transition-time: 0.3s;
   --border-radius: 5px;
 }

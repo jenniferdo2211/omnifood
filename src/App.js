@@ -1,5 +1,6 @@
 import React from "react";
 import AppHeader from "./components/AppHeader";
+import FeaturedIn from "./components/FeaturedIn";
 import Hero from "./components/Hero";
 import HowItWorks from "./components/HowItWorks";
 
@@ -9,6 +10,7 @@ const App = () => {
       <AppHeader />
       <main>
         <Hero />
+        <FeaturedIn />
         <HowItWorks />
       </main>
     </React.Fragment>

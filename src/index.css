@@ -4,7 +4,7 @@
 
 
 --- FONT SIZE SYSTEM (px)
-10 / 12 / 14 / 16 / 18 / 20 / 24 / 30 / 36 / 44 / 52 / 62 / 74 / 86 / 98
+1 / 1.2 / 1.4 / 1.6 / 1.8 / 2 / 2.4 / 3.0 / 3.6 / 4.4 / 5.2 / 6.2 / 7.4 / 8.6 / 9.8
 
 --- FONT WEIGHTS
 
@@ -14,10 +14,10 @@
 
 --- COLORS
 PRIMARY: #e67e22
-TINTS:
-SHADES:
+TINTS: #fdf2e9
+SHADES: #cf711f
 ACCENTS:
-GREYS:
+GREYS: #555, #333
 
 --- SHADOWS
 
@@ -26,9 +26,16 @@ GREYS:
 
 
 --- WHITESPACES
-2 / 4 / 8 / 12 / 16 / 24 / 32 / 48 / 64 / 80 / 96 / 128
+0.2 / 0.4 / 0.8 / 1.2 / 1.6 / 2.4 / 3.2 / 4.8 / 6.4 / 8 / 9.6 / 12.8
 
 */
+
+:root {
+  --primary-color: #e67e22;
+  --tint-color: #fdf2e9;
+  --shade-color: #cf711f;
+  --grey-color: #555;
+}
 
 * {
   margin: 0;
@@ -41,8 +48,8 @@ html {
 }
 
 body {
-  font-family: sans-serif;
+  font-family: "Rubik", sans-serif;
   line-height: 1;
   font-weight: 400;
-  color: #555;
+  color: var(--grey-color);
 }

@@ -35,6 +35,9 @@ GREYS: #555, #333
   --tint-color: #fdf2e9;
   --shade-color: #cf711f;
   --grey-color: #555;
+  --min-padding: 6.4rem;
+  --transition-time: 0.3s;
+  --border-radius: 5px;
 }
 
 * {

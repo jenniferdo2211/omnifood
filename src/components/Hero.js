@@ -1,7 +1,7 @@
 import * as React from "react";
 import "./Hero.css";
 
-const Hero = ({}) => {
+const Hero = () => {
   return (
     <section className="section-hero">
       <div className="hero">
@@ -23,12 +23,12 @@ const Hero = ({}) => {
 
           <div className="delivered-meals">
             <div className="delivered-imgs">
-              <img src="img/customers/customer-1.jpg" alt="Customer photo" />
-              <img src="img/customers/customer-2.jpg" alt="Customer photo" />
-              <img src="img/customers/customer-3.jpg" alt="Customer photo" />
-              <img src="img/customers/customer-4.jpg" alt="Customer photo" />
-              <img src="img/customers/customer-5.jpg" alt="Customer photo" />
-              <img src="img/customers/customer-6.jpg" alt="Customer photo" />
+              <img src="img/customers/customer-1.jpg" alt="Omnifood customer" />
+              <img src="img/customers/customer-2.jpg" alt="Omnifood customer" />
+              <img src="img/customers/customer-3.jpg" alt="Omnifood customer" />
+              <img src="img/customers/customer-4.jpg" alt="Omnifood customer" />
+              <img src="img/customers/customer-5.jpg" alt="Omnifood customer" />
+              <img src="img/customers/customer-6.jpg" alt="Omnifood customer" />
             </div>
             <p className="delivered-text">
               <span>250,000+</span> meals last year!

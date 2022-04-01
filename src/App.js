@@ -3,7 +3,7 @@ import "./App.css";
 import AppHeader from "./components/AppHeader";
 import Hero from "./components/Hero";
 
-function App() {
+const App = () => {
   return (
     <React.Fragment>
       <AppHeader />
@@ -12,6 +12,6 @@ function App() {
       </main>
     </React.Fragment>
   );
-}
+};
 
 export default App;

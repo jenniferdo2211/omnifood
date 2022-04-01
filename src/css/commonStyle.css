@@ -14,9 +14,9 @@
   padding: 1.2rem 2.4rem;
   font-size: 1.6rem;
   font-weight: 600;
-  border-radius: 5px;
+  border-radius: var(--border-radius);
 
-  transition: all 0.3s;
+  transition: all var(--transition-time);
 }
 
 .btn-primary:link,

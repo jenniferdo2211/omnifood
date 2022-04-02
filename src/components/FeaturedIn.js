@@ -3,7 +3,7 @@ import "./FeaturedIn.css";
 const FeaturedIn = () => {
   return (
     <div className="section-featured">
-      <div className="container">
+      <div className="container margin-bottom-md">
         <h2 className="heading-featured-in">As featured in</h2>
         <div className="logos">
           <img src="img/logos/techcrunch.png" alt="Techcrunch logo" />

@@ -76,7 +76,11 @@
 }
 
 .margin-right-sm {
-  margin-right: 2rem;
+  margin-right: 2rem !important;
+}
+
+.margin-bottom-md {
+  margin-bottom: 4.8rem !important;
 }
 
 .grid {
@@ -101,4 +105,23 @@
   max-width: 120rem;
   margin: 0 auto;
   padding: 0 var(--min-padding);
+}
+
+strong {
+  font-weight: 500;
+}
+
+.tag {
+  display: inline-block;
+  padding: 0.4rem 0.8rem;
+  font-size: 1.2rem;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  color: #fff;
+  border-radius: 100px;
+  font-weight: 600;
+}
+
+.center-text {
+  text-align: center;
 }

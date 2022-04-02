@@ -83,6 +83,11 @@
   margin-bottom: 4.8rem !important;
 }
 
+.section-padding {
+  padding-top: var(--top-padding);
+  padding-bottom: var(--bottom-padding);
+}
+
 .grid {
   display: grid;
   row-gap: var(--bottom-padding);

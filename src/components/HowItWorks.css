@@ -1,7 +1,3 @@
-.section-how {
-  padding: var(--top-padding) 0 var(--bottom-padding) 0;
-}
-
 .step-img-box {
   position: relative;
   display: flex;

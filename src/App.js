@@ -4,6 +4,7 @@ import FeaturedIn from "./components/FeaturedIn";
 import Hero from "./components/Hero";
 import HowItWorks from "./components/HowItWorks";
 import Meals from "./components/Meals";
+import Testimonials from "./components/Testimonials";
 
 const App = () => {
   return (
@@ -14,6 +15,7 @@ const App = () => {
         <FeaturedIn />
         <HowItWorks />
         <Meals />
+        <Testimonials />
       </main>
     </React.Fragment>
   );

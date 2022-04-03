@@ -30,7 +30,7 @@
   font-size: 1.8rem;
 
   transition: color var(--transition-time),
-    background-color var(--transition-time);
+    background-color var(--transition-time), box-shadow var(--transition-time);
 }
 
 .main-nav-link:hover,

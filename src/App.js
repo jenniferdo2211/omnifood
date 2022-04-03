@@ -1,5 +1,6 @@
 import React from "react";
 import AppHeader from "./components/AppHeader";
+import CallToAction from "./components/CallToAction";
 import FeaturedIn from "./components/FeaturedIn";
 import Features from "./components/Features";
 import Hero from "./components/Hero";
@@ -20,6 +21,7 @@ const App = () => {
         <Testimonials />
         <Pricing />
         <Features />
+        <CallToAction />
       </main>
     </React.Fragment>
   );

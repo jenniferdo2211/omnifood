@@ -35,6 +35,7 @@
   letter-spacing: 1px;
 }
 
+.btn,
 .btn:link,
 .btn:visited {
   display: inline-block;
@@ -45,6 +46,10 @@
   border-radius: var(--border-radius);
 
   transition: all var(--transition-time);
+
+  cursor: pointer;
+  border: none;
+  font-family: inherit;
 }
 
 .btn-primary:link,
@@ -73,6 +78,11 @@
 .btn-secondary:hover,
 .btn-secondary:active {
   background-color: #fff;
+}
+
+.btn-secondary:focus {
+  outline: none;
+  box-shadow: 0 0 0 8px rgba(230, 125, 34, 0.5);
 }
 
 .container {

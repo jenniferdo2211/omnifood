@@ -25,22 +25,19 @@ const Meals = () => {
             <p className="meal-title">Japanese Gyozas</p>
             <ul className="meal-attributes">
               <li className="meal-attribute">
-                <ion-icon class="meal-icon" name="flame-outline"></ion-icon>
+                <ion-icon class="meal-icon" name="flame-outline" />
                 <span>
                   <strong>650</strong> calories
                 </span>
               </li>
               <li className="meal-attribute">
-                <ion-icon
-                  class="meal-icon"
-                  name="restaurant-outline"
-                ></ion-icon>
+                <ion-icon class="meal-icon" name="restaurant-outline" />
                 <span>
                   NutriScore &reg; <strong>74</strong>
                 </span>
               </li>
               <li className="meal-attribute">
-                <ion-icon class="meal-icon" name="star-outline"></ion-icon>
+                <ion-icon class="meal-icon" name="star-outline" />
                 <span>
                   <strong>4.9</strong> (537 reviews)
                 </span>
@@ -64,22 +61,19 @@ const Meals = () => {
             <p className="meal-title">Japanese Gyozas</p>
             <ul className="meal-attributes">
               <li className="meal-attribute">
-                <ion-icon class="meal-icon" name="flame-outline"></ion-icon>
+                <ion-icon class="meal-icon" name="flame-outline" />
                 <span>
                   <strong>400</strong> calories
                 </span>
               </li>
               <li className="meal-attribute">
-                <ion-icon
-                  class="meal-icon"
-                  name="restaurant-outline"
-                ></ion-icon>
+                <ion-icon class="meal-icon" name="restaurant-outline" />
                 <span>
                   NutriScore &reg; <strong>92</strong>
                 </span>
               </li>
               <li className="meal-attribute">
-                <ion-icon class="meal-icon" name="star-outline"></ion-icon>
+                <ion-icon class="meal-icon" name="star-outline" />
                 <span>
                   <strong>4.8</strong> (441 reviews)
                 </span>
@@ -92,39 +86,39 @@ const Meals = () => {
           <h3 className="heading-tertiary">Works with any diet</h3>
           <ul className="list">
             <li className="list-item">
-              <ion-icon class="list-icon" name="checkmark"></ion-icon>
+              <ion-icon class="list-icon" name="checkmark" />
               <span>Vegetarian</span>
             </li>
             <li className="list-item">
-              <ion-icon class="list-icon" name="checkmark"></ion-icon>
+              <ion-icon class="list-icon" name="checkmark" />
               <span>Vegan</span>
             </li>
             <li className="list-item">
-              <ion-icon class="list-icon" name="checkmark"></ion-icon>
+              <ion-icon class="list-icon" name="checkmark" />
               <span>Pescatarian</span>
             </li>
             <li className="list-item">
-              <ion-icon class="list-icon" name="checkmark"></ion-icon>
+              <ion-icon class="list-icon" name="checkmark" />
               <span>Gluten-free</span>
             </li>
             <li className="list-item">
-              <ion-icon class="list-icon" name="checkmark"></ion-icon>
+              <ion-icon class="list-icon" name="checkmark" />
               <span>Lactose-free</span>
             </li>
             <li className="list-item">
-              <ion-icon class="list-icon" name="checkmark"></ion-icon>
+              <ion-icon class="list-icon" name="checkmark" />
               <span>Keto</span>
             </li>
             <li className="list-item">
-              <ion-icon class="list-icon" name="checkmark"></ion-icon>
+              <ion-icon class="list-icon" name="checkmark" />
               <span>Paleo</span>
             </li>
             <li className="list-item">
-              <ion-icon class="list-icon" name="checkmark"></ion-icon>
+              <ion-icon class="list-icon" name="checkmark" />
               <span>Low FODMAP</span>
             </li>
             <li className="list-item">
-              <ion-icon class="list-icon" name="checkmark"></ion-icon>
+              <ion-icon class="list-icon" name="checkmark" />
               <span>Kid-friendly</span>
             </li>
           </ul>

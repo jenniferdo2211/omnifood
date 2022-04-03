@@ -1,9 +1,10 @@
 import "./AppHeader.css";
+import Logo from "./Logo";
 
 const AppHeader = () => {
   return (
     <header className="header">
-      <img src="img/omnifood-logo.png" alt="Omnifood logo" className="logo" />
+      <Logo />
       <nav className="main-nav">
         <ul className="main-nav-list">
           <li>

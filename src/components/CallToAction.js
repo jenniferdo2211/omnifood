@@ -2,7 +2,7 @@ import "./CallToAction.css";
 
 const CallToAction = () => {
   return (
-    <div className="section-cta section-padding">
+    <div className="section-cta">
       <div className="container">
         <div className="cta">
           <div className="cta-text-box">

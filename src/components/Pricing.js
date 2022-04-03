@@ -22,21 +22,21 @@ const Pricing = () => {
             </div>
           </header>
 
-          <ul className="list">
+          <ul className="list plan-list">
             <li className="list-item">
-              <ion-icon class="list-icon" name="checkmark"></ion-icon>
+              <ion-icon class="list-icon" name="checkmark" />
               <span>1 meal per day</span>
             </li>
             <li className="list-item">
-              <ion-icon class="list-icon" name="checkmark"></ion-icon>
+              <ion-icon class="list-icon" name="checkmark" />
               <span>Order from 11am to 9pm</span>
             </li>
             <li className="list-item">
-              <ion-icon class="list-icon" name="checkmark"></ion-icon>
+              <ion-icon class="list-icon" name="checkmark" />
               <span>Free delivery</span>
             </li>
             <li className="list-item">
-              <ion-icon class="list-icon" name="close"></ion-icon>
+              <ion-icon class="list-icon" name="close" />
               <span>Get access to latest recipes</span>
             </li>
           </ul>
@@ -61,26 +61,27 @@ const Pricing = () => {
 
           <ul className="list">
             <li className="list-item">
-              <ion-icon class="list-icon" name="checkmark"></ion-icon>
+              <ion-icon class="list-icon" name="checkmark" />
               <span>
                 <strong>2 meals</strong> per day
               </span>
             </li>
             <li className="list-item">
-              <ion-icon class="list-icon" name="checkmark"></ion-icon>
+              <ion-icon class="list-icon" name="checkmark" />
               <span>
                 Order <strong>24/7</strong>
               </span>
             </li>
             <li className="list-item">
-              <ion-icon class="list-icon" name="checkmark"></ion-icon>
+              <ion-icon class="list-icon" name="checkmark" />
               <span>Free delivery</span>
             </li>
             <li className="list-item">
-              <ion-icon class="list-icon" name="checkmark"></ion-icon>
+              <ion-icon class="list-icon" name="checkmark" />
               <span>Get access to latest recipes</span>
             </li>
           </ul>
+
           <div className="plan-sign-up">
             <a href="#" className="btn btn-primary">
               Start your healthy plan

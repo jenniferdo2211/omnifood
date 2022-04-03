@@ -10,10 +10,6 @@
   padding: 0 var(--min-padding);
 }
 
-.logo {
-  height: 2.2rem;
-}
-
 .main-nav-list {
   list-style: none;
   display: flex;

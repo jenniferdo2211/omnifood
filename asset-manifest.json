@@ -1,14 +1,14 @@
 {
   "files": {
-    "main.css": "/omnifood/static/css/main.e78fe2a1.css",
+    "main.css": "/omnifood/static/css/main.8b362dcc.css",
     "main.js": "/omnifood/static/js/main.50a188cb.js",
     "static/media/eating.jpg": "/omnifood/static/media/eating.fb10ee9ced850d7e76d2.jpg",
     "index.html": "/omnifood/index.html",
-    "main.e78fe2a1.css.map": "/omnifood/static/css/main.e78fe2a1.css.map",
+    "main.8b362dcc.css.map": "/omnifood/static/css/main.8b362dcc.css.map",
     "main.50a188cb.js.map": "/omnifood/static/js/main.50a188cb.js.map"
   },
   "entrypoints": [
-    "static/css/main.e78fe2a1.css",
+    "static/css/main.8b362dcc.css",
     "static/js/main.50a188cb.js"
   ]
 }

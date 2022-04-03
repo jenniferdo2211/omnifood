@@ -9,27 +9,27 @@ const AppHeader = () => {
         <ul className="main-nav-list">
           <li>
             <a href="#" className="main-nav-link">
-              Section
+              How it works
             </a>
           </li>
           <li>
             <a href="#" className="main-nav-link">
-              Section
+              Meals
             </a>
           </li>
           <li>
             <a href="#" className="main-nav-link">
-              Section
+              Testimonials
             </a>
           </li>
           <li>
             <a href="#" className="main-nav-link">
-              Section
+              Pricing
             </a>
           </li>
           <li>
             <a href="#" className="main-nav-link nav-cta">
-              Section
+              Try for free
             </a>
           </li>
         </ul>

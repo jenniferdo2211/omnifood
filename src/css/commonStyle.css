@@ -75,6 +75,12 @@
   background-color: #fff;
 }
 
+.container {
+  max-width: 120rem;
+  margin: 0 auto;
+  padding: 0 var(--min-padding);
+}
+
 .margin-right-sm {
   margin-right: 2rem !important;
 }
@@ -106,10 +112,8 @@
   grid-template-columns: repeat(3, 1fr);
 }
 
-.container {
-  max-width: 120rem;
-  margin: 0 auto;
-  padding: 0 var(--min-padding);
+.grid--4-cols {
+  grid-template-columns: repeat(4, 1fr);
 }
 
 strong {

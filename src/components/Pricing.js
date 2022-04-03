@@ -2,7 +2,7 @@ import "./Pricing.css";
 
 const Pricing = () => {
   return (
-    <div className="section-pricing section-padding">
+    <section className="section-pricing section-padding">
       <div className="container">
         <span className="subheading">Pricing</span>
         <h2 className="heading-secondary">
@@ -88,7 +88,14 @@ const Pricing = () => {
           </div>
         </div>
       </div>
-    </div>
+
+      <div className="container">
+        <aside className="plan-addition-info">
+          Prices include all applicable taxes. You can cancel at any time. Both
+          plans include the following:
+        </aside>
+      </div>
+    </section>
   );
 };
 
